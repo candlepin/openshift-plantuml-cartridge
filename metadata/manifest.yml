@@ -1,0 +1,26 @@
+Name: openshift-plantuml-cartridge
+Cartridge-Short-Name: plantuml
+Display-Name: Plantuml 8033
+Description: "Plantuml add-on cartridge. Can be used with any primary cartridge that already contains Graphviz."
+Version: 8033
+License: LGPL
+Vendor: candlepinproject.org
+Source-Url: https://github.com/candlepin/openshift-plantuml-cartridge.git
+Cartridge-Version: 1.0.0
+Cartridge-Vendor: candlepin
+Compatible-Versions:
+- 1.0.0
+Categories:
+- embedded
+- plugin
+Help-Topics:
+Getting Started Guide: https://www.github.com/candlepin/openshift-plantuml-cartridge
+Provides:
+- plantuml-8033
+- plantuml
+Scaling:
+  Min: 1
+  Max: -1
+Group-Overrides:
+- components:
+  - plantuml

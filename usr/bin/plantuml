@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+
+java -jar ${OPENSHIFT_PLANTUML_DIR}usr/lib/plantuml.jar $@
