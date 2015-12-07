@@ -21,3 +21,4 @@ Provides:
 Group-Overrides:
 - components:
   - plantuml
+  - graphviz
