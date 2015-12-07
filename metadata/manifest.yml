@@ -18,9 +18,6 @@ Getting Started Guide: https://www.github.com/candlepin/openshift-plantuml-cartr
 Provides:
 - plantuml-8033
 - plantuml
-Scaling:
-  Min: 1
-  Max: -1
 Group-Overrides:
 - components:
   - plantuml
